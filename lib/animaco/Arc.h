@@ -12,9 +12,10 @@ namespace animaco
     public:
         Arc();
         ~Arc();
-
+        void draw(DrawingBuffer *buffer);
+        void nextFrame();
     private:
-
+        
     };
 }
 

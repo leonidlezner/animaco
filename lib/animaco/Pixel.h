@@ -4,6 +4,7 @@
 #pragma once
 
 #include "Animation.h"
+#include "DrawingBuffer.h"
 
 namespace animaco
 {
@@ -12,7 +13,8 @@ namespace animaco
     public:
         Pixel();
         ~Pixel();
-
+        void draw(DrawingBuffer *buffer);
+        void nextFrame();
     private:
 
     };
